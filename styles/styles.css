@@ -1,0 +1,22 @@
+.fondoAhorcado{
+    display: grid;
+    grid-template-rows: 700px 300px;
+    grid-template-areas:        "ahorcado"
+                                "letras";
+}
+​
+.ahorcado{
+    background-color: blue;
+    width: 700px;
+    height: 100%;
+    grid-area: ahorcado;
+    margin: auto;
+}
+​
+.zonaLetras{
+    background-color: chartreuse;
+    width: 700px;
+    height: 100%;
+    grid-area: letras;
+    margin: auto;
+}
